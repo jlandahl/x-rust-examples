@@ -11,6 +11,7 @@ struct User {
 
 // use imperative style to get the email addresses of users who are 18 or older
 fn process_users_imperative() {
+    // get the user records from some source like a remote server or a database
     let users = get_users();
 
     // create an empty container to hold the email addresses
@@ -37,6 +38,7 @@ fn process_users_imperative() {
 
 // use functional style to get the email addresses of users who are 18 or older
 fn process_users_functional() {
+    // get the user records from some source like a remote server or a database
     let users = get_users();
 
     // one simple step to do the same as above
